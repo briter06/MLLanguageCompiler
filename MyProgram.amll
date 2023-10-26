@@ -1,0 +1,46 @@
+Model_Name: 'TestModel'
+Model_Type: ANN
+Inputs {
+	Input {
+		Input_Name: 'Input1'
+		Input_Type: NUMBER
+	}
+	Input {
+		Input_Name: 'Input2'
+		Input_Type: CATEGORICAL
+	}
+	Input {
+		Input_Name: 'Input3'
+		Input_Type: BINARY
+	}
+}
+Outputs {
+	Output {
+		Output_Name: 'Output1'
+		Output_Type: NUMBER
+	}
+	Output {
+		Output_Name: 'Output2'
+		Output_Type: BINARY
+	}
+}
+Model {
+	Layers {
+		Layer {
+			Layer_Name: 'Layer1'
+			Layer_Params: [1]
+		}
+		Layer {
+			Layer_Name: 'Layer2'
+			Layer_Params: [2,3]
+		}
+		Layer {
+			Layer_Name: 'Layer3'
+			Layer_Params: [4,5,6]
+		}
+		Layer {
+			Layer_Name: 'Layer4'
+			Layer_Params: [7,8,9,0]
+		}
+	}
+}

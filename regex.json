@@ -1,0 +1,110 @@
+{
+    "comment": {
+        "regex": "#.*|\\'\\'\\'(.|[\n])*\\'\\'\\'",
+        "value": 1
+    },
+    "Model_Name_Token": {
+        "regex": "\\bModel_Name\\b",
+        "value": 2
+    },
+    "Model_Type_Token": {
+        "regex": "\\bModel_Type\\b",
+        "value": 3
+    },
+    "Model_Type_Options_Token": {
+        "regex": "\\bANN\\b|\\bTree\\b|\\bRandomForest\\b|\\bSVM\\b|\\bDecisionTree\\b",
+        "value": 4
+    },
+    "Inputs_Token": {
+        "regex": "\\bInputs\\b",
+        "value": 5
+    },
+    "Input_Token": {
+        "regex": "\\bInput\\b",
+        "value": 6
+    },
+    "Input_Name_Token": {
+        "regex": "\\bInput_Name\\b",
+        "value": 7
+    },
+    "Input_Type_Token": {
+        "regex": "\\bInput_Type\\b",
+        "value": 8
+    },
+    "Outputs_Token": {
+        "regex": "\\bOutputs\\b",
+        "value": 9
+    },
+    "Output_Token": {
+        "regex": "\\bOutput\\b",
+        "value": 10
+    },
+    "Output_Name_Token": {
+        "regex": "\\bOutput_Name\\b",
+        "value": 11
+    },
+    "Output_Type_Token": {
+        "regex": "\\bOutput_Type\\b",
+        "value": 12
+    },
+    "Type_Options_Token": {
+        "regex": "\\bNUMBER\\b|\\bCATEGORICAL\\b|\\bBINARY\\b",
+        "value": 13
+    },
+    "Model_Token": {
+        "regex": "\\bModel\\b",
+        "value": 14
+    },
+    "Layers_Token": {
+        "regex": "\\bLayers\\b",
+        "value": 15
+    },
+    "Layer_Token": {
+        "regex": "\\bLayer\\b",
+        "value": 16
+    },
+    "Layer_Name_Token": {
+        "regex": "\\bLayer_Name\\b",
+        "value": 17
+    },
+    "Layer_Params_Token": {
+        "regex": "\\bLayer_Params\\b",
+        "value": 18
+    },
+    "Comma_Token": {
+        "regex": ",",
+        "value": 19
+    },
+    "Float_Token": {
+        "regex": "(-|)([0-9]*)\\.([0-9]+)",
+        "value": 20
+    },
+    "Int_Token": {
+        "regex": "(-|)([0-9]*)",
+        "value": 21
+    },
+    "LeftSquare_Token": {
+        "regex": "\\[",
+        "value": 22
+    },
+    "RightSquare_Token": {
+        "regex": "\\]",
+        "value": 23
+    },
+    "Colon_Token": {
+        "regex": ":",
+        "value": 24
+    },
+    "LeftBracket_Token": {
+        "regex": "{",
+        "value": 25
+    },
+    "RightBracket_Token": {
+        "regex": "}",
+        "value": 26
+    },
+    "FreeText_Token": {
+        "regex": "'([^'])*'",
+        "value": 28
+    }
+}
